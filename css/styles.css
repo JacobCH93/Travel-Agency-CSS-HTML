@@ -61,7 +61,18 @@
   position: relative;
   margin: auto;
   align-items: center;
+  background-color: azure;
 }
+.top-left-text{
+    color: rgb(248, 244, 244);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 10px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+  }
 
 /* Hide the images by default */
 .mySlides {
@@ -95,6 +106,22 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    margin-top: 50px;
+    width: 80%;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 /* Caption text */
@@ -138,8 +165,8 @@
 }
 
 .slides_img {
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
     align-items: center;
 
 }
