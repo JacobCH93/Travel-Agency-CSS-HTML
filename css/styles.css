@@ -30,13 +30,6 @@
     color: black;
   }
   
-
-  .header a.active {
-    background-color: rgb(90, 161, 231);
-    color: white;
-  }
-  
-  
   .header-right {
     float: right;
   }
@@ -91,6 +84,16 @@
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
     
+}
+
+.ethos_img {
+    border-radius: 5%;
+    float: right;
+    width:  600px;
+    height: 600px;
+    object-fit: cover;
+    box-shadow: 10px 10px 5px grey;
+
 }
 
 /* Hide the images by default */
