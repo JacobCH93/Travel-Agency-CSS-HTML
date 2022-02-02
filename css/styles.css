@@ -156,7 +156,7 @@
 .split_footer {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 70px;
     width: 100%;
     flex-wrap: wrap;
     margin-left: 90px;
@@ -164,12 +164,13 @@
 }
 
 .logo_size {
-    margin-left: 30px;
-    flex-wrap: wrap;
-    float: left;
     width:  40px;
     height: 40px;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+.group_images {
+    margin-left: 40px;
 }
 
 .promo_title {
